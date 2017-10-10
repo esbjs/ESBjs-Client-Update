@@ -1,0 +1,5 @@
+{
+  "servers" : [{"name" : "", "type" : "servicebus", "ip" : "", "port": 0}],
+  "tokenId" : "",
+  "task" : [""]
+}

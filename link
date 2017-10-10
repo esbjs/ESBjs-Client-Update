@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+ln /webdev/user/wellington/workspace/esbpy/app.py ./app.py
+
+
+mkdir api
+ln /webdev/user/wellington/workspace/esbpy/api/__init__.py ./api/__init__.py
+ln /webdev/user/wellington/workspace/esbpy/api/broadcast.py ./api/broadcast.py
+ln /webdev/user/wellington/workspace/esbpy/api/fs.py ./api/fs.py
+ln /webdev/user/wellington/workspace/esbpy/api/request.py ./api/request.py
+ln /webdev/user/wellington/workspace/esbpy/api/task.py ./api/task.py
+ln /webdev/user/wellington/workspace/esbpy/api/update.py ./api/update.py
+
+
+mkdir data
+ln /webdev/user/wellington/workspace/esbpy/data/template_config.json ./data/template_config.json

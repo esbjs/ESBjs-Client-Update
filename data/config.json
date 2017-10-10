@@ -1,0 +1,7 @@
+{
+  "servers" : [{"name" : "home", "type" : "servicebus", "ip" : "192.168.124.1", "port": 5007}],
+  "tokenId" : "0c33cc7a-69bc-4c79-adfe-56ec1738657d",
+  "task" : { "parameters" : {"algoritm" : "failover", "failover" : {"array" : [{"bus": "home", "element": "i3"}, {"bus": "fatec", "element": "fail"}]}}},
+  "projects" : [{"project" : "clima"}]
+
+}
